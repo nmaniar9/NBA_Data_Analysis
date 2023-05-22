@@ -7,6 +7,8 @@ Tableau dashboard: https://public.tableau.com/app/profile/neil.maniar/viz/NBApla
 File:
 NBA_Project(1).
 
+concepts and ideas learned: Exploratory data analysis with Python Pandas, grouping, querying, and filtering data. Plotting with matplotlib and plotly. Tableau dashboarding; filtering, calculated fields, data coversion, plotting comparison charts.
+
 I explore the 4 datasets that are included in the kaggle datasets. first loading in the data sets and filtering them down to seasons after 1979. To me this marks the start of the modern NBA when the three point line was introduced. I use various data exploration and cleaning functions within the Python Pandas library including .describe(), .duplicate(), and .info(). 
 
 Next, I explored the data sets to see various trends in the NBA, including how points rebounds and assists have increased over the last 50 seasons. using .groupby(), .query() and other data filtering methods. I plotted the various changes for the totals as well as breaking down how each postion has changed. For example, the small forward postion was the only postion whose points scored by players in that postions decreased over the 50 year period. 
