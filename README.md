@@ -7,7 +7,7 @@ Tableau dashboard: https://public.tableau.com/app/profile/neil.maniar/viz/NBApla
 Skills used: Python Pandas, Data Exploration, Tableau, Data Visualization
 
 File:
-NBA_Project(2).
+NBA_Project(3).ipynb
 
 The NBA has grown a lot since its creation in 1946 including the addition of new rules, new teams, and the use of advanced analytics. The goal of my data exploration is to understand how the changes have impacted the league and the players. I take a look at 4 data sets from 1950 – 2022 for player salaries, player career stats, player box scores, and team payrolls. 
 First I explored the datasets using the Python Pandas library, exploring and cleaning the datasets gives us a good idea of what we are looking at. Taking a look at the box_score table : 
@@ -21,7 +21,7 @@ Taking a look at how many 3 pointer were made during each season using the .grou
 
 We can see that the number of three pointers have increased consistently each season with some drops. Taking a look at other stats during the same time period we also see similar increases with similar drop offs. The 1999 and 2012 seasons were shortened from a lockout due to salary negotiations, the 2020 season was also cut short due to the COVID-19 pandemic. Can the 3 point shot be the main contributor to the total point increase? The NBA added many teams over the last 50 years with the last team being added in 2002, so it may not be realistic to only look at the number of FG (naturally more teams leads to more FG). If we take a look at the % of shots taken we can get a better understanding.
 
-![image](https://github.com/nmaniar9/neilmaniar.github.io/assets/44175458/24896e8a-7349-440b-a57f-934f9931d8b7)
+![Screenshot 2023-05-24 233106](https://github.com/nmaniar9/NBA_Data_Analysis/assets/44175458/baa0f0a4-19f1-4db3-885d-c2a3809b302e)
 
 If we look at the shot selections over the last 50 years we can see that approximately 30% of shots taken are 3 pointers. 3 pointers are one of the major factors contributing to the point increase along with new teams, and slightly longer seasons.
 
