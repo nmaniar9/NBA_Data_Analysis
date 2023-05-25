@@ -7,7 +7,7 @@ Tableau dashboard: https://public.tableau.com/app/profile/neil.maniar/viz/NBApla
 Skills used: Python Pandas, Data Exploration, Tableau, Data Visualization
 
 File:
-NBA_Project(1).
+NBA_Project(2).
 
 The NBA has grown a lot since its creation in 1946 including the addition of new rules, new teams, and the use of advanced analytics. The goal of my data exploration is to understand how the changes have impacted the league and the players. I take a look at 4 data sets from 1950 – 2022 for player salaries, player career stats, player box scores, and team payrolls. 
 First I explored the datasets using the Python Pandas library, exploring and cleaning the datasets gives us a good idea of what we are looking at. Taking a look at the box_score table : 
