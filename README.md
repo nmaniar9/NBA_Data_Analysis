@@ -17,7 +17,7 @@ We can see what data types are available in the data set with .info() and we can
 One of the biggest changes in the NBA includes the addition of the 3-point line in 1979. So a big question is how has the 3 point line affected the game? 
 Taking a look at how many 3 pointer were made during each season using the .groupby() function
 
-![image](https://github.com/nmaniar9/neilmaniar.github.io/assets/44175458/d4883c5a-9664-41d5-a081-1f4d481a0c93)
+![image](https://github.com/nmaniar9/NBA_Data_Analysis/assets/44175458/fe148d6a-06e6-4c97-aef1-f2235a2add6d)
 
 We can see that the number of three pointers have increased consistently each season with some drops. Taking a look at other stats during the same time period we also see similar increases with similar drop offs. The 1999 and 2012 seasons were shortened from a lockout due to salary negotiations, the 2020 season was also cut short due to the COVID-19 pandemic. Can the 3 point shot be the main contributor to the total point increase? The NBA added many teams over the last 50 years with the last team being added in 2002, so it may not be realistic to only look at the number of FG (naturally more teams leads to more FG). If we take a look at the % of shots taken we can get a better understanding.
 
